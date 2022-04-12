@@ -1,0 +1,49 @@
+.App {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+  input{
+    width:70%;
+    height:50px;
+  }
+  *{
+    background-color: aqua;
+  }
+  #under div{
+    width:70%;
+    height:50px;
+    border: 1px dotted black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:x-large;
+    color: blueviolet;
+  }
+  #under div:hover{
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    transform: translate3d(0,-2px,0);
+  }
+  button{
+    width:28%;
+    height:49px;
+    padding: 13px;
+  }
+  
+  .items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .circlularButton {
+    background: transparent;
+    border: none;
+    background: coral;
+    border-radius: 50%;
+  }
+  #main{
+    border: 2px solid red;
+    width: 500px;
+    background-color: blanchedalmond;
+  }
+  
